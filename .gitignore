@@ -1,1 +1,2 @@
-mpiit-db.json
+*.json
+!/schemas/json-schema-*.json

@@ -10,7 +10,12 @@ Fetch and output latest JSON:
 make
 ```
 
-Output JSON from cache (if present):
+Build with caching enabled and attach to container:
 ```bash
 make dev
+```
+
+Output the job verification results:
+```bash
+make verify
 ```

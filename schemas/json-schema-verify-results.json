@@ -1,0 +1,3255 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "periodic-ci-Apicurio-apicurio-registry-system-tests-main-service-registry-ocp4.18-lp-interop-service-registry-2-6": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-Apicurio-apicurio-registry-system-tests-main-service-registry-ocp4.18-lp-interop-service-registry-2-6-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-RedHatQE-interop-testing-cnv-4.18-cnv-odf-ocp4.18-lp-interop-cnv-odf-tests-aws-ipi-ocp418": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-RedHatQE-interop-testing-cnv-4.18-cnv-odf-ocp4.18-lp-interop-cnv-odf-tests-aws-ipi-ocp418-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-amq-streams-qe-strimzi-kafka-operator-main-amq-streams-ocp4.18-lp-interop-amq-streams-2-8": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-amq-streams-qe-strimzi-kafka-operator-main-amq-streams-ocp4.18-lp-interop-amq-streams-2-8-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-ansible-tower-qa-devel-ocp4.18-lp-interop-aap-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {},
+        "reported_job_state": {},
+        "test_container_status": {},
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "verification"
+      ]
+    },
+    "periodic-ci-ansible-tower-qa-devel-ocp4.18-lp-interop-aap-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-infinispan-infinispan-operator-stable-data-grid-ocp4.18-lp-interop-data-grid-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-infinispan-infinispan-operator-stable-data-grid-ocp4.18-lp-interop-data-grid-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-insights-qe-iqe-cost-management-plugin-master-ocp4.18-lp-interop-cost-management-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-insights-qe-iqe-cost-management-plugin-master-ocp4.18-lp-interop-cost-management-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-eap-qe-openshift-eap-tests-pit-7.4.x-eap-ocp4.18-lp-interop-eap-74-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-eap-qe-openshift-eap-tests-pit-7.4.x-eap-ocp4.18-lp-interop-eap-74-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-eap-qe-openshift-eap-tests-pit-7.4.x-eap-ocp4.18-lp-interop-eap-74-xp-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-eap-qe-openshift-eap-tests-pit-7.4.x-eap-ocp4.18-lp-interop-eap-74-xp-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-fuse-camel-k-test-container-main-camel-k-ocp4.18-lp-interop-camel-k-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-fuse-camel-k-test-container-main-camel-k-ocp4.18-lp-interop-camel-k-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-fuse-camel-quarkus-openshift-interop-main-camel-quarkus-ocp4.18-lp-interop-camel-quarkus-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-fuse-camel-quarkus-openshift-interop-main-camel-quarkus-ocp4.18-lp-interop-camel-quarkus-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-fuse-csb-tnb-tests-container-main-csb-ocp4.18-lp-interop-csb-interop-aws-latest": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-fuse-csb-tnb-tests-container-main-csb-ocp4.18-lp-interop-csb-interop-aws-latest-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-fuse-fuse-xpaas-qe-container-main-jboss-fuse-ocp4.18-lp-interop-jboss-fuse-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jboss-fuse-fuse-xpaas-qe-container-main-jboss-fuse-ocp4.18-lp-interop-jboss-fuse-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jws-qe-interop-ocp-ci-main-ocp-4.18-lp-interop-jws-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-jws-qe-interop-ocp-ci-main-ocp-4.18-lp-interop-jws-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-konveyor-tackle-ui-tests-mta_7.0.3-mta-ocp4.18-lp-interop-mta-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-konveyor-tackle-ui-tests-mta_7.0.3-mta-ocp4.18-lp-interop-mta-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-maistra-maistra-test-tool-main-servicemesh-ocp4.18-lp-interop-servicemesh-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-maistra-maistra-test-tool-main-servicemesh-ocp4.18-lp-interop-servicemesh-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-mtc-qe-mtc-e2e-qev2-master-mtc1.8-ocp4.18-lp-interop-mtc-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-mtc-qe-mtc-e2e-qev2-master-mtc1.8-ocp4.18-lp-interop-mtc-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-oadp-qe-oadp-qe-automation-main-oadp1.4-ocp4.18-lp-interop-oadp-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-oadp-qe-oadp-qe-automation-main-oadp1.4-ocp4.18-lp-interop-oadp-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-grafana-tempo-operator-main-tempo-product-ocp-4.18-lp-interop-tempo-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {},
+        "reported_job_state": {},
+        "test_container_status": {},
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-grafana-tempo-operator-main-tempo-product-ocp-4.18-lp-interop-tempo-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {},
+        "reported_job_state": {},
+        "test_container_status": {},
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-jaegertracing-jaeger-operator-main-jaeger-product-ocp-4.18-lp-interop-jaeger-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {},
+        "reported_job_state": {},
+        "test_container_status": {},
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-jaegertracing-jaeger-operator-main-jaeger-product-ocp-4.18-lp-interop-jaeger-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {},
+        "reported_job_state": {},
+        "test_container_status": {},
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-knative-serverless-operator-main-ocp4.18-lp-interop-operator-e2e-interop-aws-ocp418": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-knative-serverless-operator-main-ocp4.18-lp-interop-operator-e2e-interop-aws-ocp418-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-open-telemetry-opentelemetry-operator-main-opentelemetry-product-ocp-4.18-lp-interop-opentelemetry-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {},
+        "reported_job_state": {},
+        "test_container_status": {},
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-open-telemetry-opentelemetry-operator-main-opentelemetry-product-ocp-4.18-lp-interop-opentelemetry-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {},
+        "reported_job_state": {},
+        "test_container_status": {},
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-pipelines-release-tests-release-v1.15-openshift-pipelines-ocp4.18-lp-interop-openshift-pipelines-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-pipelines-release-tests-release-v1.15-openshift-pipelines-ocp4.18-lp-interop-openshift-pipelines-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-pipelines-release-tests-release-v1.17-openshift-pipelines-ocp4.18-lp-interop-openshift-pipelines-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-openshift-pipelines-release-tests-release-v1.17-openshift-pipelines-ocp4.18-lp-interop-openshift-pipelines-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-quarkus-qe-quarkus-openshift-interop-main-quarkus-ocp4.18-lp-interop-quarkus-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-quarkus-qe-quarkus-openshift-interop-main-quarkus-ocp4.18-lp-interop-quarkus-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-quay-quay-tests-master-ocp-418-quay-quay-e2e-tests-quay313-ocp418-lp-interop": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-quay-quay-tests-master-ocp-418-quay-quay-e2e-tests-quay313-ocp418-lp-interop-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-red-hat-storage-ocs-ci-master-odf-ocp4.18-lp-interop-odf-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-red-hat-storage-ocs-ci-master-odf-ocp4.18-lp-interop-odf-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-redhat-developer-devspaces-interop-tests-main-devspaces-ocp4.18-lp-interop-devspaces-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-redhat-developer-devspaces-interop-tests-main-devspaces-ocp4.18-lp-interop-devspaces-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-redhat-developer-gitops-operator-v1.15-gitops-ocp4.18-lp-interop-redhat-openshift-gitops-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-redhat-developer-gitops-operator-v1.15-gitops-ocp4.18-lp-interop-redhat-openshift-gitops-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {},
+        "reported_job_state": {},
+        "test_container_status": {},
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "verification"
+      ]
+    },
+    "periodic-ci-redhat-developer-helm-release-3.11-helm-ocp4.18-lp-interop-helm-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-redhat-developer-helm-release-3.11-helm-ocp4.18-lp-interop-helm-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-redhat-developer-odo-main-odo-ocp4.18-lp-interop-odo-scenario-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-redhat-developer-odo-main-odo-ocp4.18-lp-interop-odo-scenario-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-rh-messaging-qe-claire-amq-broker-lpt-amq-broker-ocp4.18-lp-interop-amq-broker-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-rh-messaging-qe-claire-amq-broker-lpt-amq-broker-ocp4.18-lp-interop-amq-broker-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-rh-openjdk-jdkContainerOcpTests-main-openjdk-ocp4.18-lp-interop-openjdk-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-rh-openjdk-jdkContainerOcpTests-main-openjdk-ocp4.18-lp-interop-openjdk-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-rhbk-sso-test-main-rhsso-product-ocp4.18-lp-interop-rhsso-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-rhbk-sso-test-main-rhsso-product-ocp4.18-lp-interop-rhsso-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {},
+        "reported_job_state": {},
+        "test_container_status": {},
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "verification"
+      ]
+    },
+    "periodic-ci-rhoar-qe-spring-boot-openshift-interop-tests-main-springboot-ocp4.18-lp-interop-springboot-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-rhoar-qe-spring-boot-openshift-interop-tests-main-springboot-ocp4.18-lp-interop-springboot-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-sclorg-ansible-tests-master-dotnet-ocp4.18-lp-interop-dotnet-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-sclorg-ansible-tests-master-dotnet-ocp4.18-lp-interop-dotnet-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-sclorg-ansible-tests-master-rhscl-ocp4.18-lp-interop-rhscl-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-sclorg-ansible-tests-master-rhscl-ocp4.18-lp-interop-rhscl-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-skupperproject-skupper-openshift-smoke-test-image-main-service-interconnect-ocp4.18-lp-interop-rhsi-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-skupperproject-skupper-openshift-smoke-test-image-main-service-interconnect-ocp4.18-lp-interop-rhsi-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-stackrox-stackrox-master-ocp-4-18-lp-interop-acs-tests-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-stackrox-stackrox-master-ocp-4-18-lp-interop-acs-tests-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-windup-windup-ui-tests-v1.2-mtr-ocp4.18-lp-interop-mtr-interop-aws": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    },
+    "periodic-ci-windup-windup-ui-tests-v1.2-mtr-ocp4.18-lp-interop-mtr-interop-aws-fips": {
+      "type": "object",
+      "properties": {
+        "pod_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reported_job_state": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_container_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "object",
+          "properties": {
+            "jira_ticket_created_for_this_run": {
+              "type": "boolean"
+            },
+            "test_container_created": {
+              "type": "boolean"
+            },
+            "test_container_started": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "jira_ticket_created_for_this_run",
+            "test_container_created",
+            "test_container_started"
+          ]
+        }
+      },
+      "required": [
+        "pod_status",
+        "reported_job_state",
+        "test_container_status",
+        "verification"
+      ]
+    }
+  },
+  "required": [
+    "periodic-ci-Apicurio-apicurio-registry-system-tests-main-service-registry-ocp4.18-lp-interop-service-registry-2-6",
+    "periodic-ci-Apicurio-apicurio-registry-system-tests-main-service-registry-ocp4.18-lp-interop-service-registry-2-6-fips",
+    "periodic-ci-RedHatQE-interop-testing-cnv-4.18-cnv-odf-ocp4.18-lp-interop-cnv-odf-tests-aws-ipi-ocp418",
+    "periodic-ci-RedHatQE-interop-testing-cnv-4.18-cnv-odf-ocp4.18-lp-interop-cnv-odf-tests-aws-ipi-ocp418-fips",
+    "periodic-ci-amq-streams-qe-strimzi-kafka-operator-main-amq-streams-ocp4.18-lp-interop-amq-streams-2-8",
+    "periodic-ci-amq-streams-qe-strimzi-kafka-operator-main-amq-streams-ocp4.18-lp-interop-amq-streams-2-8-fips",
+    "periodic-ci-ansible-tower-qa-devel-ocp4.18-lp-interop-aap-interop-aws",
+    "periodic-ci-ansible-tower-qa-devel-ocp4.18-lp-interop-aap-interop-aws-fips",
+    "periodic-ci-infinispan-infinispan-operator-stable-data-grid-ocp4.18-lp-interop-data-grid-interop-aws",
+    "periodic-ci-infinispan-infinispan-operator-stable-data-grid-ocp4.18-lp-interop-data-grid-interop-aws-fips",
+    "periodic-ci-insights-qe-iqe-cost-management-plugin-master-ocp4.18-lp-interop-cost-management-interop-aws",
+    "periodic-ci-insights-qe-iqe-cost-management-plugin-master-ocp4.18-lp-interop-cost-management-interop-aws-fips",
+    "periodic-ci-jboss-eap-qe-openshift-eap-tests-pit-7.4.x-eap-ocp4.18-lp-interop-eap-74-interop-aws",
+    "periodic-ci-jboss-eap-qe-openshift-eap-tests-pit-7.4.x-eap-ocp4.18-lp-interop-eap-74-interop-aws-fips",
+    "periodic-ci-jboss-eap-qe-openshift-eap-tests-pit-7.4.x-eap-ocp4.18-lp-interop-eap-74-xp-interop-aws",
+    "periodic-ci-jboss-eap-qe-openshift-eap-tests-pit-7.4.x-eap-ocp4.18-lp-interop-eap-74-xp-interop-aws-fips",
+    "periodic-ci-jboss-fuse-camel-k-test-container-main-camel-k-ocp4.18-lp-interop-camel-k-interop-aws",
+    "periodic-ci-jboss-fuse-camel-k-test-container-main-camel-k-ocp4.18-lp-interop-camel-k-interop-aws-fips",
+    "periodic-ci-jboss-fuse-camel-quarkus-openshift-interop-main-camel-quarkus-ocp4.18-lp-interop-camel-quarkus-interop-aws",
+    "periodic-ci-jboss-fuse-camel-quarkus-openshift-interop-main-camel-quarkus-ocp4.18-lp-interop-camel-quarkus-interop-aws-fips",
+    "periodic-ci-jboss-fuse-csb-tnb-tests-container-main-csb-ocp4.18-lp-interop-csb-interop-aws-latest",
+    "periodic-ci-jboss-fuse-csb-tnb-tests-container-main-csb-ocp4.18-lp-interop-csb-interop-aws-latest-fips",
+    "periodic-ci-jboss-fuse-fuse-xpaas-qe-container-main-jboss-fuse-ocp4.18-lp-interop-jboss-fuse-interop-aws",
+    "periodic-ci-jboss-fuse-fuse-xpaas-qe-container-main-jboss-fuse-ocp4.18-lp-interop-jboss-fuse-interop-aws-fips",
+    "periodic-ci-jws-qe-interop-ocp-ci-main-ocp-4.18-lp-interop-jws-interop-aws",
+    "periodic-ci-jws-qe-interop-ocp-ci-main-ocp-4.18-lp-interop-jws-interop-aws-fips",
+    "periodic-ci-konveyor-tackle-ui-tests-mta_7.0.3-mta-ocp4.18-lp-interop-mta-interop-aws",
+    "periodic-ci-konveyor-tackle-ui-tests-mta_7.0.3-mta-ocp4.18-lp-interop-mta-interop-aws-fips",
+    "periodic-ci-maistra-maistra-test-tool-main-servicemesh-ocp4.18-lp-interop-servicemesh-interop-aws",
+    "periodic-ci-maistra-maistra-test-tool-main-servicemesh-ocp4.18-lp-interop-servicemesh-interop-aws-fips",
+    "periodic-ci-mtc-qe-mtc-e2e-qev2-master-mtc1.8-ocp4.18-lp-interop-mtc-interop-aws",
+    "periodic-ci-mtc-qe-mtc-e2e-qev2-master-mtc1.8-ocp4.18-lp-interop-mtc-interop-aws-fips",
+    "periodic-ci-oadp-qe-oadp-qe-automation-main-oadp1.4-ocp4.18-lp-interop-oadp-interop-aws",
+    "periodic-ci-oadp-qe-oadp-qe-automation-main-oadp1.4-ocp4.18-lp-interop-oadp-interop-aws-fips",
+    "periodic-ci-openshift-grafana-tempo-operator-main-tempo-product-ocp-4.18-lp-interop-tempo-interop-aws",
+    "periodic-ci-openshift-grafana-tempo-operator-main-tempo-product-ocp-4.18-lp-interop-tempo-interop-aws-fips",
+    "periodic-ci-openshift-jaegertracing-jaeger-operator-main-jaeger-product-ocp-4.18-lp-interop-jaeger-interop-aws",
+    "periodic-ci-openshift-jaegertracing-jaeger-operator-main-jaeger-product-ocp-4.18-lp-interop-jaeger-interop-aws-fips",
+    "periodic-ci-openshift-knative-serverless-operator-main-ocp4.18-lp-interop-operator-e2e-interop-aws-ocp418",
+    "periodic-ci-openshift-knative-serverless-operator-main-ocp4.18-lp-interop-operator-e2e-interop-aws-ocp418-fips",
+    "periodic-ci-openshift-open-telemetry-opentelemetry-operator-main-opentelemetry-product-ocp-4.18-lp-interop-opentelemetry-interop-aws",
+    "periodic-ci-openshift-open-telemetry-opentelemetry-operator-main-opentelemetry-product-ocp-4.18-lp-interop-opentelemetry-interop-aws-fips",
+    "periodic-ci-openshift-pipelines-release-tests-release-v1.15-openshift-pipelines-ocp4.18-lp-interop-openshift-pipelines-interop-aws",
+    "periodic-ci-openshift-pipelines-release-tests-release-v1.15-openshift-pipelines-ocp4.18-lp-interop-openshift-pipelines-interop-aws-fips",
+    "periodic-ci-openshift-pipelines-release-tests-release-v1.17-openshift-pipelines-ocp4.18-lp-interop-openshift-pipelines-interop-aws",
+    "periodic-ci-openshift-pipelines-release-tests-release-v1.17-openshift-pipelines-ocp4.18-lp-interop-openshift-pipelines-interop-aws-fips",
+    "periodic-ci-quarkus-qe-quarkus-openshift-interop-main-quarkus-ocp4.18-lp-interop-quarkus-interop-aws",
+    "periodic-ci-quarkus-qe-quarkus-openshift-interop-main-quarkus-ocp4.18-lp-interop-quarkus-interop-aws-fips",
+    "periodic-ci-quay-quay-tests-master-ocp-418-quay-quay-e2e-tests-quay313-ocp418-lp-interop",
+    "periodic-ci-quay-quay-tests-master-ocp-418-quay-quay-e2e-tests-quay313-ocp418-lp-interop-fips",
+    "periodic-ci-red-hat-storage-ocs-ci-master-odf-ocp4.18-lp-interop-odf-interop-aws",
+    "periodic-ci-red-hat-storage-ocs-ci-master-odf-ocp4.18-lp-interop-odf-interop-aws-fips",
+    "periodic-ci-redhat-developer-devspaces-interop-tests-main-devspaces-ocp4.18-lp-interop-devspaces-interop-aws",
+    "periodic-ci-redhat-developer-devspaces-interop-tests-main-devspaces-ocp4.18-lp-interop-devspaces-interop-aws-fips",
+    "periodic-ci-redhat-developer-gitops-operator-v1.15-gitops-ocp4.18-lp-interop-redhat-openshift-gitops-interop-aws",
+    "periodic-ci-redhat-developer-gitops-operator-v1.15-gitops-ocp4.18-lp-interop-redhat-openshift-gitops-interop-aws-fips",
+    "periodic-ci-redhat-developer-helm-release-3.11-helm-ocp4.18-lp-interop-helm-interop-aws",
+    "periodic-ci-redhat-developer-helm-release-3.11-helm-ocp4.18-lp-interop-helm-interop-aws-fips",
+    "periodic-ci-redhat-developer-odo-main-odo-ocp4.18-lp-interop-odo-scenario-aws",
+    "periodic-ci-redhat-developer-odo-main-odo-ocp4.18-lp-interop-odo-scenario-aws-fips",
+    "periodic-ci-rh-messaging-qe-claire-amq-broker-lpt-amq-broker-ocp4.18-lp-interop-amq-broker-interop-aws",
+    "periodic-ci-rh-messaging-qe-claire-amq-broker-lpt-amq-broker-ocp4.18-lp-interop-amq-broker-interop-aws-fips",
+    "periodic-ci-rh-openjdk-jdkContainerOcpTests-main-openjdk-ocp4.18-lp-interop-openjdk-interop-aws",
+    "periodic-ci-rh-openjdk-jdkContainerOcpTests-main-openjdk-ocp4.18-lp-interop-openjdk-interop-aws-fips",
+    "periodic-ci-rhbk-sso-test-main-rhsso-product-ocp4.18-lp-interop-rhsso-interop-aws",
+    "periodic-ci-rhbk-sso-test-main-rhsso-product-ocp4.18-lp-interop-rhsso-interop-aws-fips",
+    "periodic-ci-rhoar-qe-spring-boot-openshift-interop-tests-main-springboot-ocp4.18-lp-interop-springboot-interop-aws",
+    "periodic-ci-rhoar-qe-spring-boot-openshift-interop-tests-main-springboot-ocp4.18-lp-interop-springboot-interop-aws-fips",
+    "periodic-ci-sclorg-ansible-tests-master-dotnet-ocp4.18-lp-interop-dotnet-interop-aws",
+    "periodic-ci-sclorg-ansible-tests-master-dotnet-ocp4.18-lp-interop-dotnet-interop-aws-fips",
+    "periodic-ci-sclorg-ansible-tests-master-rhscl-ocp4.18-lp-interop-rhscl-interop-aws",
+    "periodic-ci-sclorg-ansible-tests-master-rhscl-ocp4.18-lp-interop-rhscl-interop-aws-fips",
+    "periodic-ci-skupperproject-skupper-openshift-smoke-test-image-main-service-interconnect-ocp4.18-lp-interop-rhsi-interop-aws",
+    "periodic-ci-skupperproject-skupper-openshift-smoke-test-image-main-service-interconnect-ocp4.18-lp-interop-rhsi-interop-aws-fips",
+    "periodic-ci-stackrox-stackrox-master-ocp-4-18-lp-interop-acs-tests-aws",
+    "periodic-ci-stackrox-stackrox-master-ocp-4-18-lp-interop-acs-tests-aws-fips",
+    "periodic-ci-windup-windup-ui-tests-v1.2-mtr-ocp4.18-lp-interop-mtr-interop-aws",
+    "periodic-ci-windup-windup-ui-tests-v1.2-mtr-ocp4.18-lp-interop-mtr-interop-aws-fips"
+  ]
+}
