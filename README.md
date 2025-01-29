@@ -5,7 +5,7 @@ Requirements:
 - `podman`/`docker`
 - `make`
 
-Fetch and output latest JSON:
+Fetch and output latest prowjob data:
 ```bash
 make
 ```
