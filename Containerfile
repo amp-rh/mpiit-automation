@@ -224,6 +224,14 @@ jq -c '
         env.GCS_ROOT_URL + "/" + .job_name 
         + "/" + .latest_build_id + "/artifacts/build-resources/builds.json"
     ) |
+    .links.build_events_json = (
+        env.ARTIFACTS_ROOT_URL + "/" + .job_name
+        + "/" + .latest_build_id + "/artifacts/build-resources/events.json"
+    ) |
+    .links.build_events_json_gcs = (
+        env.GCS_ROOT_URL + "/" + .job_name
+        + "/" + .latest_build_id + "/artifacts/build-resources/events.json"
+    ) |
     .links.pods_json = (
         env.ARTIFACTS_ROOT_URL + "/" + .job_name 
         + "/" + .latest_build_id + "/artifacts/build-resources/pods.json"
@@ -344,6 +352,42 @@ EOF
 
 FROM base AS update-db-from-podinfo
 COPY --from=parse-podinfo /app/updates .
+COPY --from=update-db-from-prowjobs /app/db .
+RUN <<EOF
+jq -s '.[0] * .[1]' updates db > a.tmp
+mv a.tmp db
+EOF
+
+FROM base-gcs AS fetch-build-events
+COPY --from=update-db-from-prowjobs /app/db .
+RUN <<EOF
+jq '.[].links.build_events_json_gcs as $url | if $url then @sh "gsutil -qm cat \($url) | gzip -d" else "echo null" end' db |
+    xargs -I '{}' -- bash -c {} |
+    jq -s '@json|fromjson' > a.tmp
+jq -s '[(.[0]|keys), .[1]]|transpose|.[]|({(.[0]): .[1]})' db a.tmp |
+  jq -s 'reduce .[] as $i ({};.+$i)' > build_events_json
+EOF
+
+FROM base AS parse-build-events
+COPY --from=fetch-build-events /app/build_events_json .
+RUN <<EOF
+jq '
+map_values({
+  atypical_pod_build_events: [
+    .items[]?|select(
+      .type!="Normal" and .involvedObject.kind=="Pod"
+    )|{
+        pod_name:.involvedObject.name,
+        reason,
+        message,
+        count,
+      }
+  ]
+})' build_events_json > updates
+EOF
+
+FROM base AS update-db-from-build-events
+COPY --from=parse-build-events /app/updates .
 COPY --from=update-db-from-prowjobs /app/db .
 RUN <<EOF
 jq -s '.[0] * .[1]' updates db > a.tmp
@@ -472,6 +516,35 @@ jq '
 ' db > updates
 EOF
 
+FROM base-post-processing AS classify-node-availability-failures
+COPY --from=parse-build-events /app/updates .
+RUN <<EOF
+jq -s '.[0] * .[1]' updates db > a.tmp
+mv a.tmp db
+jq '
+    def classify:
+        .classification = {
+            scheduling_failed_due_to_node_availability: (
+                [
+                    (.atypical_pod_build_events[].message |
+                        match (
+                          "\\d+\\/\\d+ nodes are available:\\s"; "g"
+                        )
+                    )?
+                ] | any
+            )
+        };
+
+    map_values(classify) | map_values({
+        classification
+    })
+' db > updates
+EOF
+
+FROM base-post-processing AS gather-classify-results
+COPY --from=classify-node-availability-failures /app/updates classification
+
+
 FROM base AS gather-verify-results
 COPY --from=verify-jira-ticket-created-for-run /app/updates updates_a
 COPY --from=verify-test-container-started /app/updates updates_b
@@ -482,6 +555,10 @@ EOF
 FROM base AS final
 COPY --from=update-db-from-gathered-artifacts /app/db .
 COPY --from=gather-verify-results /app/verification .
+COPY --from=gather-classify-results /app/classification .
 RUN <<EOF
+jq -sS '.[0] * .[1]' db verification > a.tmp
+jq -sS '.[0] * .[1]' db classification > b.tmp
+jq -sS '.[0] * .[1]' a.tmp b.tmp > db
 EOF
 ENTRYPOINT ["bash", "-c"]
