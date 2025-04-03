@@ -272,6 +272,7 @@ EOF
 FROM base-gcs AS fetch-firewatch-build-logs
 COPY --from=update-db-from-prowjobs /app/db .
 RUN <<EOF
+touch firewatch_build_logs
 jq -r '
     .[]| .links.firewatch_build_log_gcs as $uri | 
     [.job_name, $uri] | join(" ")
