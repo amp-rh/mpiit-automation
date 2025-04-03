@@ -6,7 +6,7 @@ ENV OSCI_CONFIG_ROOT_URL="https://raw.githubusercontent.com/openshift/release/re
 ENV JIRA_ROOT_URL="https://issues.redhat.com"
 ENV GCS_ROOT_URL="gs://test-platform-results/logs"
 ENV OCP_MAJOR_VER=4
-ENV OCP_MINOR_VER=18
+ENV OCP_MINOR_VER=19
 ENV JOB_NAME_REGEX="periodic-.+-ocp.?$OCP_MAJOR_VER.?$OCP_MINOR_VER-lp-interop.*"
 
 WORKDIR /app
